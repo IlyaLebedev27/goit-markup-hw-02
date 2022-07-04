@@ -41,7 +41,7 @@ header{
     font-size: 26px;
     ine-height: 1.14;
     letter-spacing: 0.03em;
-    color:var(--main-txt-cl:)
+    color:var(--main-txt-cl)
 }
 
 .header-link
@@ -52,7 +52,7 @@ header{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color:var(--main-txt-cl:)
+    color:var(--main-txt-cl)
 }
  .header-link:hover,
  .header-link:focus,
