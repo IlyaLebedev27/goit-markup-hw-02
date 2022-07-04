@@ -54,7 +54,9 @@ header{
     letter-spacing: 0.02em;
     color:var(--main-txt-cl:)
 }
- .header-link:hover:focus:active {
+ .header-link:hover,
+ .header-link:focus,
+ .header-link:active {
     color:var(--accent-txt-cl)
 }
 .header-link-current {
@@ -176,8 +178,8 @@ color:var(--wight-txt-cl);
         color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link:hover
-.footer-link:focus
+.footer-link:hover,
+.footer-link:focus,
 .footer-link:active {
     color: var(--accent-txt-cl)
 }
