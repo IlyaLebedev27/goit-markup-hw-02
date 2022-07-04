@@ -192,11 +192,11 @@ color:var(--wight-txt-cl);
 
 .selector-btn {
     
-    cursor: pointer;
+cursor: pointer;
 font-family: 'Roboto';
 font-style: normal;
- font-weight: 500;
- font-size: 16px;
+font-weight: 500;
+font-size: 16px;
 line-height: 26px;
 letter-spacing: 0.03em;
     color: var(--main-txt-cl)
