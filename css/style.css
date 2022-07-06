@@ -78,6 +78,8 @@ color: var(--accent-txt-cl)
         font-weight: 900;
         font-size: 44px;
         line-height: 1.5;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
         color:var(--wight-txt-cl)
 }
 
@@ -123,11 +125,13 @@ color: var(--main-txt-cl)
 }
 .name{
     font-family:var(--secondary-font);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-        color: var(--main-txt-cl)
+        
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16;
+        letter-spacing: 0.06em;
+    
+        color:var(--main-txt-cl);
 }
 .function{
     font-family:var(--secondary-font);
@@ -141,17 +145,18 @@ color: var(--main-txt-cl)
     background-color: var(--dark-bg-cl);
 }
 
-.webstudio-footer{
- font-family:var(--main-font);
-font-weight: 700;
-font-size: 26px;
-line-height: 1.2;
-letter-spacing: 0.03em; 
-color:var(--wight-txt-cl);
-}
+.webstudio-footer {
+     font-family:var(--main-font);
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.2;
+     letter-spacing: 0.03em; 
+     color:var(--wight-txt-cl);
+ }
 
-.footer-adres{
+.footer-adres {
     font-family:var(--secondary-font);
+        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -162,6 +167,7 @@ color:var(--wight-txt-cl);
 .footer-link {
     font-family:var(--secondary-font);
         font-weight: 400;
+        font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
